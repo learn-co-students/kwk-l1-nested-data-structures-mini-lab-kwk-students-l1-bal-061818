@@ -6,11 +6,17 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-def sandwich_request(ingredients, order) 
-  # your code here!
+def sandwich_request (ingredients, order)
+  if order = ingredients
+    puts "true"
+  else 
+    puts "false"
+  end 
+  sandwich_request (ingredients, "rye","salami", "swiss", "ketchup")
 end
 
-# example city_info hash
+
+
 cities = {
   :new_york => { 
     :mayor => "Bill DeBlasio",
@@ -34,6 +40,9 @@ cities = {
   }
 }
 
-def city_populations(cities)
-  # your code here!
+def city_populations (cities, :population)
+  puts ""
+  
+    
+  puts "The population of New York is "
 end
